@@ -34,7 +34,7 @@ ul {
   list-style-type: none;
 }
 
-button {
+.buttons {
   outline: none;
   background: $accent;
   width: 20%;
@@ -82,6 +82,12 @@ select {
   font-weight: $semibold;
   line-height: inherit;
   transition: 0.3s ease;
+}
+
+table, tr, th, td {
+  margin: 0 auto;
+  width: 66%;
+  border: 1px solid #aaa;
 }
 
 #logo {
