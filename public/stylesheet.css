@@ -1,0 +1,89 @@
+header {
+  background-color: #0065b3;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 1%;
+  padding: .05% 0;
+}
+
+* {
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+.form {
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba($black, .1);
+  box-sizing: border-box;
+  margin: 100px auto 10px;
+  overflow: hidden;
+}
+
+label {
+  display: block;
+  margin: 0 0 10px;
+  color: $gray;
+  font-size: 12px;
+  font-weight: $semibold;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  background: $accent;
+  width: 20%;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: $white;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: $semibold;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  background: rgba($black, 0.1);
+  width: 50%;
+  border: 1;
+  margin: 2% auto;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: $gray;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: $semibold;
+  line-height: inherit;
+  transition: 0.3s ease;
+}
+
+select {
+  display: block;
+  background: rgba($black, 0.1);
+  width: 50%;
+  border: 1;
+  margin: 2% auto;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: $gray;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: $semibold;
+  line-height: inherit;
+  transition: 0.3s ease;
+}
+
+#logo {
+  margin-bottom: 2%;
+}

@@ -1,16 +1,18 @@
 import React from 'react'
+import { Route, Link } from 'react-router-dom'
 
 class Employee extends React.Component {
   render() {
     return (
-      <div>
-      <h1>Employees</h1>
+      <div class="form-style-7">
       <form>
+        <label for="Username">Username</label>
+        <input type="text" name="Name" placeholder="Enter you username"/>
         <label for="Dept">Department</label>
-        <input type="text" name="Dept"/>
+        <input type="text" name="Dept" placeholder="Enter you department"/>
         <label for="Pass">Password</label>
-        <input type="Password" name="Pass"/>
-        <button>Confirm</button>
+        <input type="Password" name="Pass" placeholder="Enter you password"/>
+        <Link to="/Employee/Appointments"><button>Confirm</button></Link>
       </form>
       </div>
     );

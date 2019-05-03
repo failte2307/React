@@ -7,14 +7,13 @@ class App extends React.Component {
   render() {
     return (
     <div>
-      <h1>Home</h1>
-      Please select your Role:
+      <h1>Please select your Role:</h1>
       <ul>
         <li>
-          <Link to="/Employee">Employee</Link>
+          <h2><Link to="/Employee">Employee</Link></h2>
         </li>
         <li>
-          <Link to="/Visitor">Visitor</Link>
+          <h2><Link to="/Visitor">Visitor</Link></h2>
         </li>
       </ul>
     </div>
