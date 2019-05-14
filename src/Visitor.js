@@ -1,6 +1,6 @@
 import React from 'react'
-import { Route, Link } from 'react-router-dom'
-import { Prompt } from 'react-router'
+import { Link } from 'react-router-dom'
+
 
 class Visitor extends React.Component {
   render() {

@@ -9,19 +9,23 @@ import Appointments from './Appointments';
 import Sign from './Sign';
 import Message from './Message';
 import * as serviceWorker from './serviceWorker';
+import About from "./About";
+import Help from "./Help";
 
 const routing = (
   <Router>
     <div>
       <Route exact path="/" component={App} />
+      <Route exact path="/About" component={About}/>
       <Route exact path="/Employee" component={Employee} />
       <Route exact path="/Employee/Appointments" component={Appointments} />
       <Route path="/Employee/Appointments/Sign" component={Sign} />
       <Route exact path="/Visitor" component={Visitor} />
       <Route path="/Visitor/Message" component={Message} />
+      <Route path="/Help" component={Help}/>
     </div>
   </Router>
-)
+);
 
 ReactDOM.render(routing, document.getElementById('root'));
 

@@ -93,3 +93,10 @@ table, tr, th, td {
 #logo {
   margin-bottom: 2%;
 }
+.footer {
+  position: relative;
+  margin-top: 250px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+}
