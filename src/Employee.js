@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 class Employee extends React.Component {
   render() {
     return (
@@ -11,7 +12,7 @@ class Employee extends React.Component {
         <label for="Dept">Department</label>
         <input type="text" name="Dept" placeholder="Enter you department"/>
         <label for="Pass">Password</label>
-        <input type="Password" name="Pass" placeholder="Enter you password"/>
+        <input type="Password" name="Pass" placeholder="Enter you password"/><br/>
         <Link to="/Employee/Appointments"><button class="buttons">Confirm</button></Link>
       </form>
       </div>
