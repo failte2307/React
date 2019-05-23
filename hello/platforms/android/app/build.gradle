@@ -328,3 +328,4 @@ for (def func : cdvPluginPostBuildExtras) {
 if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
+def enableSeparateBuildPerCPUArchitecture = false
