@@ -11,6 +11,7 @@ import Message from './Message';
 import * as serviceWorker from './serviceWorker';
 import About from "./About";
 import Help from "./Help";
+import Home from "./Home";
 
 const routing = (
   <Router>
